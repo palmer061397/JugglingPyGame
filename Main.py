@@ -7,7 +7,7 @@ BACKGROUND = (0, 0, 0)
 
 class Ball:
     def __init__(self):
-        self.image = pygame.image.load("small_tennis.png")
+        self.image = pygame.image.load("download.png")
         self.speed = [random.randrange(-4,4), 3]
         self.rect = self.image.get_rect()
         self.alive = True
